@@ -1,0 +1,277 @@
+﻿body{
+	font-size: 20px;
+	margin:0;
+	padding: 0;
+	font-family: "Poppins",sans-serif;
+}
+
+
+header{
+	
+	text-align: center;
+	font-weight: bold;
+	background-color: #4caf50;
+	
+    
+}
+
+
+
+header img{
+    width: 286px;
+    height: 224px;
+    margin-top: 13px;
+}
+
+
+
+header a{
+	padding: 17px;
+	text-decoration: none;
+	font-family: "Poppins",sans-serif;
+	color: white;
+}
+
+
+header a:hover {
+    color: black;
+    background-color: #3e8e41;
+}
+
+section{
+	
+            margin-top: 37px;
+            margin-block-end: 14px;
+	}
+section
+
+section a{
+	 font-family: "Poppins",sans-serif;
+	 text-align: center;
+	 color: #000000;
+}
+
+section img{
+	width: 250px;
+	height:250px;
+	display: inline;
+}
+
+
+section h4{
+	text-align: center;
+    color: #4caf50;
+	margin-top: -3px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+table p{
+	font-size: 15px;
+	margin-top: -20px;
+	color: black;
+}
+
+
+
+
+/*--------------------------------FORMULARIO------------------------------------*/
+
+form{
+	text-align: center;
+
+}
+.contato{
+	margin-top: 126px;
+
+}
+.mensagem{
+	height: 100px;
+	margin-top: 16px;
+    margin-left: 8px;
+
+}
+.texto{
+	height: 30px;
+	margin-top: 16px;
+	margin-left: 11px;
+}
+.texto1{
+	height:6px;
+	margin-top: 16px;
+	margin-left: 13px;
+}
+input{
+	padding: 10px;
+}
+
+.enviar{
+	background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    margin-block-end: 50px;
+}
+
+
+
+
+
+/*---------------------------BOTÃO---------------------------*/
+
+
+
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-baixo {  /*deixar o dropdown do lado dos outros botoes*/
+    position: relative;
+    display: inline-block;
+}
+
+.opcoes-produtos {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.opcoes-produtos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.opcoes-produtos a:hover {background-color: #f1f1f1
+
+}
+
+.botao-baixo:hover .opcoes-produtos {
+    display: block;
+}
+
+.botao-baixo:hover .botao {
+    background-color: #3e8e41;
+    color: black;
+}
+
+
+section.tamanho{
+    margin-top: 10px;
+}
+.alterar{
+    
+}
+section.insert{
+    margin-top: 100px;
+}
+/*-----------------------------------------RODAPÉ----------------------------*/
+
+footer .rodape2{
+	
+	background-color: #4caf50;
+	font-family: "Poppins",sans-serif;
+	color: white;
+   text-align: center;
+   margin-top: 36pc;
+}
+
+
+footer .rodape{
+	
+	background-color: #4caf50;
+	font-family: "Poppins",sans-serif;
+	color: white;
+   text-align: center;
+   margin-top: 15pc;
+}
+
+
+footer table{
+	padding: 90px;
+	line-height: 25px;
+        margin-left: 219px;
+
+}
+footer table {
+    padding: 90px;
+    line-height: 25px;
+    margin-left: 219px;
+}
+
+}
+
+ul{
+	list-style-type: none;
+		font-size: 15px;
+}
+footer li img{
+	margin-top: -179px;
+    width: 188px;
+    margin-left: 70px;
+}
+footer li p{
+	margin-top: -45px;
+    margin-left: 57px;
+
+}
+
+.icone-rodape{
+	width: 30px;
+	margin-left: 12px;
+    margin-top: -46px;
+}
+
+footer #text{
+	font-size: 15px;
+    margin-bottom: -65px;
+    padding: 25px;
+}
+
+footer .texto{
+	color: white;
+	font-size: 15px;
+	margin-top: -20px;
+}
+
+
+/* ---------------------------------------------------------SOBRE-----------------------------------------------------------------------------------------*/
+
+section.sobre{
+   font-size: 22px;
+   text-align: center;
+   margin-top: 150px;
+   margin-block-end: 144px;
+
+}
+
+
+/*------------------------------------PRODUTO----------------------------------------*/
+
+section .produto{
+	width: 500px;
+	height: 500px;
+	margin-left: 143px;
+}
+
+section .descrição{
+	size: 100px;
+}
