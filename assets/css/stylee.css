@@ -38,12 +38,17 @@ header a:hover {
     background-color: #3e8e41;
 }
 
+.row{
+    display: flex;
+    
+}
+
 section{
 	
             margin-top: 37px;
             margin-block-end: 14px;
 	}
-section
+
 
 section a{
 	 font-family: "Poppins",sans-serif;
@@ -69,7 +74,8 @@ a{
 	text-decoration: none;
 }
 
-table p{
+ p{
+     text-align: center;
 	font-size: 15px;
 	margin-top: -20px;
 	color: black;
@@ -177,9 +183,7 @@ input{
 section.tamanho{
     margin-top: 10px;
 }
-.alterar{
-    
-}
+
 section.insert{
     margin-top: 100px;
 }
@@ -217,7 +221,6 @@ footer table {
     margin-left: 219px;
 }
 
-}
 
 ul{
 	list-style-type: none;
@@ -274,4 +277,26 @@ section .produto{
 
 section .descrição{
 	size: 100px;
+}
+.produtos{
+    width: 25%;
+}
+
+
+/*--------------------------------RESPOSIVIDADE----------------------------------------*/
+
+@media screen and (min-width: 1440px){
+    .row{
+     margin-right: 189px;
+     margin-left: 156px;
+    }
+ }
+ 
+
+@media screen and (min-width: 768px){
+    .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -16px;
+    }
 }
