@@ -40,6 +40,7 @@ header a:hover {
 
 .row{
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -285,18 +286,46 @@ section .descrição{
 
 /*--------------------------------RESPOSIVIDADE----------------------------------------*/
 
-@media screen and (min-width: 1440px){
-    .row{
-     margin-right: 189px;
-     margin-left: 156px;
+@media  screen and (max-width: 1440px) {
+    .produtos{
+        text-align-last: center;
+        
     }
- }
- 
+    .row{
+        padding-left: 113px;
+        padding-right: 113px;
+    }
+  }
 
-@media screen and (min-width: 768px){
-    .row{
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: -16px;
+  @media  screen and (max-width: 1024px) {
+    .produtos{
+        text-align-last: center;
+        
     }
-}
+    .row{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
+
+  
+  @media  screen and (max-width: 768px) {
+    .produtos{
+        width: 33.33%;
+        
+    }
+    .row{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer table {
+         padding: 0px; 
+         line-height: 0px; 
+         margin-left: 0px; 
+    }
+
+    header img {
+        width: 150px;
+        height: 150px;
+          }
+    }
