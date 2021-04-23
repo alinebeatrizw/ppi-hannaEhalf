@@ -101,11 +101,7 @@ form{
     margin-left: 8px;
 
 }
-.texto{
-	height: 30px;
-	margin-top: 16px;
-	margin-left: 11px;
-}
+
 .texto1{
 	height:6px;
 	margin-top: 16px;
@@ -190,71 +186,33 @@ section.insert{
 }
 /*-----------------------------------------RODAPÉ----------------------------*/
 
-footer .rodape2{
-	
-	background-color: #4caf50;
-	font-family: "Poppins",sans-serif;
-	color: white;
-   text-align: center;
-   margin-top: 36pc;
+footer{
+    background-color: #4caf50;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
-
-footer .rodape{
-	
-	background-color: #4caf50;
-	font-family: "Poppins",sans-serif;
-	color: white;
-   text-align: center;
-   margin-top: 15pc;
+.texto{
+    color: #fff;
 }
 
-
-footer table{
-	padding: 90px;
-	line-height: 25px;
-        margin-left: 219px;
-
+.item-rodape{
+    flex-wrap: wrap;
+    width: 22.33%;
+    margin-top: 34px;
+    
 }
-footer table {
-    padding: 90px;
-    line-height: 25px;
-    margin-left: 219px;
-}
-
-
-ul{
-	list-style-type: none;
-		font-size: 15px;
-}
-footer li img{
-	margin-top: -179px;
-    width: 188px;
-    margin-left: 70px;
-}
-footer li p{
-	margin-top: -45px;
-    margin-left: 57px;
-
+.item-rodape-baixo{
+    margin-top: 14px;
+    
 }
 
 .icone-rodape{
 	width: 30px;
-	margin-left: 12px;
-    margin-top: -46px;
 }
 
-footer #text{
-	font-size: 15px;
-    margin-bottom: -65px;
-    padding: 25px;
-}
-
-footer .texto{
-	color: white;
-	font-size: 15px;
-	margin-top: -20px;
-}
 
 
 /* ---------------------------------------------------------SOBRE-----------------------------------------------------------------------------------------*/
