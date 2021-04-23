@@ -295,6 +295,9 @@ section .descrição{
         padding-left: 113px;
         padding-right: 113px;
     }
+    #hamburger-aparece, #hamburger-esconde{
+        display: none;
+    }
   }
 
   @media  screen and (max-width: 1024px) {
@@ -305,6 +308,9 @@ section .descrição{
     .row{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    #hamburger-aparece, #hamburger-esconde{
+        display: none;
     }
   }
 
@@ -328,4 +334,58 @@ section .descrição{
         width: 150px;
         height: 150px;
           }
+    
+    #hamburger-aparece, #hamburger-esconde{
+        display: none;
     }
+    header{
+        font-size: 18px;
+    }
+    section img{
+        width: 175px;
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    footer  {
+        display: none;
+    }
+   .produtos{
+       width: 50%;
+   }
+   section img{
+       width: 211px;
+       height: 211px;
+   }
+   #hamburger-aparece, #hamburger-esconde{
+       display: block;
+       margin-top: -70px;
+   }
+   #hamburger-aparece img, #hamburger-esconde img{
+    width: 43px;
+    height: 43px;
+   }
+
+   header a, .botao-baixo{
+       display: none;
+       
+   }
+   header img{
+    width: 236px;
+    height: 222px;
+   }
+}
+
+@media screen and (max-width: 375px){
+    section img{
+        width: 186px;
+        height: 186px;
+    }
+}
+@media screen and (max-width: 320px){
+    section img{
+        width: 150px;
+        height: 150px;
+    }
+}
