@@ -102,11 +102,7 @@ form{
 
 }
 
-.texto1{
-	height:6px;
-	margin-top: 16px;
-	margin-left: 13px;
-}
+
 input{
 	padding: 10px;
 }
@@ -213,7 +209,13 @@ footer{
 	width: 30px;
 }
 
-
+.copyright{
+    background-color: #317334;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
 
 /* ---------------------------------------------------------SOBRE-----------------------------------------------------------------------------------------*/
 
@@ -269,6 +271,13 @@ section .descrição{
     }
     #hamburger-aparece, #hamburger-esconde{
         display: none;
+    }
+    footer{
+        justify-content: space-around;
+        
+    }
+    .icone-rodape{
+        margin-left: -22px;
     }
   }
 
@@ -333,6 +342,9 @@ section .descrição{
     width: 236px;
     height: 222px;
    }
+  .item-rodape{
+    width: 54.33%;
+  }
 }
 
 @media screen and (max-width: 375px){
@@ -340,10 +352,16 @@ section .descrição{
         width: 186px;
         height: 186px;
     }
+    .item-rodape{
+        width: 61.33%;
+    }
 }
 @media screen and (max-width: 320px){
     section img{
         width: 150px;
         height: 150px;
+    }
+    .item-rodape{
+        width: 72.33%;
     }
 }
