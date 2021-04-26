@@ -87,26 +87,31 @@ a{
 
 /*--------------------------------FORMULARIO------------------------------------*/
 
-form{
-	text-align: center;
-
+.contato h3{
+    text-align: center;
 }
-.contato{
-	margin-top: 126px;
-
-}
-.mensagem{
-	height: 100px;
-	margin-top: 16px;
-    margin-left: 8px;
-
-}
-
 
 input{
-	padding: 10px;
+    text-align-last: auto;
 }
 
+.contato{
+    text-align-last: center;
+}
+
+.input-nome, .input-email {
+    width: 21%;
+    height: 35px;
+}
+.input-assunto, .input-mensagem{
+    width: 43%;
+    height: 35px;
+    margin-top: 15px;
+}
+.input-mensagem{
+    height: 100px;
+    margin-top: 15px;
+}
 .enviar{
 	background-color: #4caf50;
     border: none;
@@ -344,6 +349,12 @@ section .descrição{
    }
   .item-rodape{
     width: 54.33%;
+  }
+  .input-email, .input-nome{
+    width: 42%;
+  }
+  .input-assunto, .input-mensagem{
+    width: 87%;
   }
 }
 

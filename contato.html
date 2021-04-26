@@ -37,51 +37,58 @@
   				</div>
 		</div>
 </header>
+
+
 	<div class="contato">
-	<center><h3> Fale Conosco!</h3>
-	<p> Envie suas dúvidas, seus elogios, ou apenas um Hello. <br>Estamos aqui para te ajudar!</p></center>
-            <form method="POST" action="conecta/formu.php">
-                    <input type="text" name="nome" placeholder="Seu Nome" size="31%" class="texto" required>
-                    <input type="email" name="email" placeholder="Seu e-mail" size="31%" class="texto" required> <br>
-                    <input type="text" name="assunto" placeholder="Assunto" size="71%" class="texto1" required> <br>
-                    <input type="text" name="mensagem" placeholder="Sua mensagem" size="71%" class="mensagem"><br>
+		<h3> Fale Conosco!</h3>
+		<p> Envie suas dúvidas, seus elogios, ou apenas um Hello. <br>Estamos aqui para te ajudar!</p>
+        <form method="POST" action="conecta/formu.php">
+            <input type="text" name="nome" placeholder="Seu Nome" class="input-nome"  required>
+            <input type="email" name="email" placeholder="Seu e-mail" class="input-email"  required> <br>
+            <input type="text" name="assunto" placeholder="Assunto"  class="input-assunto" required> <br>
+            <input type="text" name="mensagem" placeholder="Sua mensagem"  class="input-mensagem"><br>
 			<input type="submit" name="Enviar" value="Enviar" class="enviar">
 			<input type="reset" name="apagar" value="Apagar" class="enviar">
 		</form>
 	</div>
-	<footer>
-		<div class="rodape">
-			<table>
-				<td>
-					<img src="./assets/imagens/mail.png" class="icone-rodape">
-				</td>
-				<td>
-					<p class="texto"> Você tem alguma dúvida?</p> <p  class="texto">enterprise.hannahalf@gmail.com</p>
-				</td>
-				<td>
-					<img src="./assets/imagens/telefone.png" class="icone-rodape">
-				</td>
-				<td>
-					<p  class="texto">(51) 99548-5207</p> <p  class="texto">Atendimento dás 9:00 às 18:00</p>
-				</td>
-				<td>
-					<img src="./assets/imagens/wpp.png" class="icone-rodape">
-				</td>
-				<td>
-					<p  class="texto">WhatsApp</p> <p  class="texto">(55) 99112-0343</p>
-				</td>
-				<tr>
-					<p id="text">
-						Rua Marechal Floriano, 3895 | Pascotini
-						Santo Ângelo/RS - 98803-167
-						CNPJ: 28.044.838/0001-04
-					</p>
-					</tr>
-			</table>
-	
-	
+
+
+	<footer style="display:flex">	
+		<div class="item-rodape">
+			<img src="./assets/imagens/mail.png" class="icone-rodape">
+			<p class="texto"> Você tem alguma dúvida?</p>
+			<p  class="texto">enterprise.hannahalf@gmail.com</p>
 		</div>
-		</footer>
+			 
+		<div class="item-rodape">
+			<img src="./assets/imagens/telefone.png" class="icone-rodape">
+			<p  class="texto">(51) 99548-5207</p>
+			<p  class="texto">Atendimento dás 9:00 às 18:00</p>
+		</div>
+
+		<div class="item-rodape">
+			<img src="./assets/imagens/wpp.png" class="icone-rodape">
+			<p  class="texto">WhatsApp</p>
+			<p  class="texto">(55) 99112-0343</p>
+
+			
+		</div>
+
+		<div class="item-rodape-baixo">
+			<p class="texto">
+				Rua Marechal Floriano, 3895 | Pascotini
+				Santo Ângelo/RS - 98803-167
+				CNPJ: 28.044.838/0001-04
+			</p>
+		
+		</div>
+
+		<div class="copyright">
+			Copyright © 2019 - Aline Wille
+		</div>
+
+
+</footer>
 		<script src="./assets/js/script.js"></script>
 </body>
 </html>
