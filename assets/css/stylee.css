@@ -224,14 +224,16 @@ footer{
 
 /* ---------------------------------------------------------SOBRE-----------------------------------------------------------------------------------------*/
 
-section.sobre{
-   font-size: 22px;
-   text-align: center;
-   margin-top: 150px;
-   margin-block-end: 144px;
 
+.sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    margin-block-end: 61px;
 }
-
+.sobre p{
+    font-size: 22px;
+}
 
 /*------------------------------------PRODUTO----------------------------------------*/
 
