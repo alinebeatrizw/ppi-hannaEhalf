@@ -20,13 +20,12 @@ Este é um trabalho de um front-end, desenvolvido para fins de estudo.
 
 ## 🚀 Resultados
 
-Layout inicial e Layout após erro, respectivamente.
+Layout da tela inicial 
 
 <p align="center">
     
-  <img src="https://github.com/alinebeatrizw/login-robo/blob/main/src/imagens/print2.png" width="600px" alt="Imagem de um robo" title="Layout inicial">
-    
-  <img src="https://github.com/alinebeatrizw/login-robo/blob/main/src/imagens/print.png" width="600px" alt="Imagem de um robo"  title="Layout após erro">
+  <img src="https://github.com/alinebeatrizw/ppi-hannaEhalf/blob/main/assets/imagens/print.png" width="600px" alt="Tela inicial do sistema" title="Layout inicial">
+
 </p>
 
 ---
